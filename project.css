@@ -1,0 +1,267 @@
+body{padding:0;margin:0;}
+div > img {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.wrapper{
+	position:fixed;
+}
+
+#intro{
+	background:url(image/family.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1500px;
+	margin: 0 auto;
+	padding: 0;
+	opacity:0.3;
+}
+
+#second{
+	background: url(image/711.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	opacity: 0.3;
+}
+
+#third{
+	height:1000px;
+	margin-top:0px;
+	background: -webkit-linear-gradient(#D2E9FF,#004B97);
+	background: -o-linear-gradient(#D2E9FF,#004B97);
+	background: -moz-linear-gradient(#D2E9FF,#004B97);
+	background: linear-gradient(#D2E9FF,#004B97);
+	opacity:0.3;
+}
+
+#fourth{
+	background:url(image/drinkTable.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	opacity: 0.3;
+}
+
+#fifth{
+	background:url(image/711.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 3500px;
+	margin: 0 auto;
+	padding: 0;
+	opacity:0.3;
+}
+#sixth{
+	background:url(image/drinkTable.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1500px;
+	margin: 0 auto;
+	padding: 0;
+	opacity:0.3;
+}
+#seventh{
+	background:url(image/711.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 5300px;
+	margin: 0 auto;
+	padding: 0;
+	opacity:0.3;
+}
+#eightth{
+	background:url(image/drinkTable.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1500px;
+	margin: 0 auto;
+	padding: 0;
+	opacity:0.3;
+}
+	#title
+	{
+		width:700px;
+		height:700px;
+		margin-top:20px;
+	}
+	#character
+	{
+		width:350px;
+		height:400px;
+		margin-top:20px;
+	}
+	#questionMark
+	{
+		width:350px;
+		height:400px;
+		margin-top:20px;
+	}
+	#good1
+	{
+		width:353px;
+		height:398px;
+		margin-top:20px;
+	}
+	#good2
+	{
+		width:353px;
+		height:398px;	
+		margin-top:20px;
+	}
+	#subtitle1
+	{
+		width:700px;
+		height:700px;
+		margin-top:20px;
+	}
+	.tea
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.coffee
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.coke
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.sportdrink
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.water
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.high
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.milk
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.ricemilk
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.juice
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	.others
+	{
+		width:200px;
+		height:200px;	
+		margin-top:20px;
+	}
+	#content
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#content1
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#composition
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#compositioncompare
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#eggcontent
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#eggcompare
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#sugarcontent
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#sugarcompare
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#fatcontent
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#NA
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#NAcompare
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#little
+	{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	.littlecontent{
+		width:700px;
+		height:700px;	
+		margin-top:20px;
+	}
+	#conclusion
+	{
+		width:1000px;
+		height:1000px;	
+		margin-top:20px;
+	}
+	#all
+	{
+		width:1300px;
+		height:1000px;	
+		margin-top:5px;
+	}
