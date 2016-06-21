@@ -35,7 +35,41 @@ function selectDrink(selectIndex) {
 			document.getElementById("peoplePhoto").src = "image/fat.jpg";
 			}
 		}
+</script>
+<script type="text/javascript">
+	function selectCategy(selectIndex){
+		if(selectIndex==1){
+			document.getElementById("contentCategy").src = "image/coke1.png";
+		}
+		if(selectIndex==2){
+			document.getElementById("contentCategy").src = "image/coffee1.png";
+			}
+		if(selectIndex==3){
+			document.getElementById("contentCategy").src = "image/high1.png";
+			}
+		if(selectIndex==4){
+			document.getElementById("contentCategy").src = "image/juice1.png";
+			}
+		if(selectIndex==5){
+			document.getElementById("contentCategy").src = "image/milk1.png";
+			}
+		if(selectIndex==6){
+			document.getElementById("contentCategy").src = "image/ricemilk1.png";
+			}
+		if(selectIndex==7){
+			document.getElementById("contentCategy").src = "image/sportdrink1.png";
+			}
+		if(selectIndex==8){
+			document.getElementById("contentCategy").src = "image/tea1.png";
+			}
+		if(selectIndex==9){
+			document.getElementById("contentCategy").src = "image/other1.png";
+			}
+		if(selectIndex==10){
+			alert("水要怎麼分類拉？");
+			}
 
+}
 </script>
 </head>
 
@@ -84,8 +118,8 @@ data-2000 = "right : -30%; top:30%;"
 
 <div id="questionMark_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-0 = "left : -30%; top:30%;"
-data-100 = "left : 30%; top:30%;"
-data-1100 = "left : 30%; top:30%;"
+data-100 = "left : 20%; top:30%;"
+data-1100 = "left : 20%; top:30%;"
 data-1400 = "left : -30%; top:30%;"
 >
 		<div id="questionMark" 
@@ -96,8 +130,8 @@ data-1400 = "left : -30%; top:30%;"
 
 <div id="good1_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-1000 = "left : -30%; top:30%;"
-data-1500 = "left : 30%; top:30%;"
-data-2000 = "left : 30%; top:30%;"
+data-1500 = "left : 10%; top:30%;"
+data-2000 = "left : 10%; top:30%;"
 data-2500 = "left : -30%; top:30%;"
 >
 		<div id="good1" 
@@ -108,8 +142,8 @@ data-2500 = "left : -30%; top:30%;"
 
 <div id="good2_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-1000 = "left : -50%; top:50%;"
-data-1500 = "left : 30%; top:50%;"
-data-2000 = "left : 30%; top:50%;"
+data-1500 = "left : 10%; top:50%;"
+data-2000 = "left : 10%; top:50%;"
 data-2500 = "left : -30%; top:50%;"
 >
 		<div id="good2" 
@@ -132,8 +166,8 @@ data-3500 = "left : 30%; top:-50%;"
 
 <div id="coke_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-2000 = "left : -50%; top:30%;"
-data-2500 = "left : 20%; top:30%;"
-data-3000 = "left : 20%; top:30%;"
+data-2500 = "left : 15%; top:30%;"
+data-3000 = "left : 15%; top:30%;"
 data-3500 = "left : -30%; top:30%;"
 data-4000 = "left : 2%; top:80%;"
 data-4500 = "left : 2%; top:80%;"
@@ -142,15 +176,15 @@ data-5000 = "left : -30%; top:80%;"
 		<div id="coke" 
 		class = "coke"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/coke.png" >
+		<img src="image/coke.png" onclick="selectCategy(1)" >
 		</div>
 </div>
 
 
 <div id="coffee_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-2000 = "left : -50%; top:30%;"
-data-2500 = "left : 30%; top:30%;"
-data-3000 = "left : 30%; top:30%;"
+data-2500 = "left : 25%; top:30%;"
+data-3000 = "left : 25%; top:30%;"
 data-3500 = "left : -30%; top:30%;"
 data-4000 = "left : 2%; top:60%;"
 data-4500 = "left : 2%; top:60%;"
@@ -159,7 +193,7 @@ data-5000 = "left : -30%; top:60%;"
 		<div id="coffee" 
 		class = "coffee"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/coffee.png" >
+		<img src="image/coffee.png" onclick="selectCategy(2)" >
 		</div>
 </div>
 
@@ -176,7 +210,7 @@ data-5000 = "left : -30%; top:0%;"
 		<div id="high" 
 		class="high"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/high.png" >
+		<img src="image/high.png" onclick="selectCategy(3)" >
 		</div>
 </div>
 
@@ -193,7 +227,7 @@ data-5000 = "left : -30%; top:20%;"
 		<div id="juice" 
 		class="juice"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/juice.png" >
+		<img src="image/juice.png" onclick="selectCategy(4)" >
 		</div>
 </div>
 
@@ -210,15 +244,15 @@ data-5000 = "left : -30%; top:40%;"
 		<div id="milk" 
 		class="milk"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/milk.png" >
+		<img src="image/milk.png" onclick="selectCategy(5)">
 		</div>
 </div>
 
 
 <div id="ricemilk_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-2000 = "right : -50%; top:30%;"
-data-2500 = "right : 20%; top:30%;"
-data-3000 = "right : 20%; top:30%;"
+data-2500 = "right : 15%; top:30%;"
+data-3000 = "right : 15%; top:30%;"
 data-3500 = "right : -30%; top:30%;"
 data-4000 = "right : 2%; top:80%;"
 data-4500 = "right : 2%; top:80%;"
@@ -227,24 +261,24 @@ data-5000 = "right : -30%; top:80%;"
 		<div id="ricemilk"  
 		class="ricemilk"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/ricemilk.png" >
+		<img src="image/ricemilk.png" onclick="selectCategy(6)">
 		</div>
 </div>
 
 
 <div id="sportdrink_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-2000 = "right : -50%; top:55%;"
-data-2500 = "right : 40%; top:55%;"
-data-3000 = "right : 40%; top:55%;"
+data-2500 = "right : 33%; top:55%;"
+data-3000 = "right : 33%; top:55%;"
 data-3500 = "right : -30%; top:55%;"
 data-4000 = "right : 2%; top:60%;"
 data-4500 = "right : 2%; top:60%;"
-data-5000 = "right : -30%; top:60%;"
+data-5000 = "right : -30%; top:40%;"
 >
 		<div id="sportdrink" 
 		class="sportdrink"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/sportdrink.png" >
+		<img src="image/sportdrink.png" onclick="selectCategy(7)">
 		</div>
 </div>
 
@@ -261,14 +295,14 @@ data-5000 = "right : -30%; top:40%;"
 		<div id="tea" 
 		class="tea"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/tea.png" >
+		<img src="image/tea.png" onclick="selectCategy(8)">
 		</div>
 </div>
 
 <div id="water_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-2000 = "right : -50%; top:55%;"
-data-2500 = "right : 50%; top:55%;"
-data-3000 = "right : 50%; top:55%;"
+data-2500 = "right : 43%; top:55%;"
+data-3000 = "right : 43%; top:55%;"
 data-3500 = "right : -30%; top:55%;"
 data-4000 = "right : 2%; top:20%;"
 data-4500 = "right : 2%; top:20%;"
@@ -278,14 +312,14 @@ data-5000 = "right : -30%; top:20%;"
 		<div id="water" 
 		class="water"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/water.png" >
+		<img src="image/water.png" onclick="selectCagegy(10)">
 		</div>
 </div>
 
 <div id="others_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-2000 = "right : -50%; top:55%;"
-data-2500 = "right : 70%; top:55%;"
-data-3000 = "right : 70%; top:55%;"
+data-2500 = "right : 57%; top:55%;"
+data-3000 = "right : 57%; top:55%;"
 data-3500 = "right : -30%; top:55%;"
 data-4000 = "right : 2%; top:0%;"
 data-4500 = "right : 2%; top:0%;"
@@ -295,7 +329,7 @@ data-5000 = "right : -30%; top:0%;"
 		<div id="others" 
 		class="others"
 		style="margin-right: 20px; background-position: 0px bottom;">
-		<img src="image/others.png" >
+		<img src="image/others.png"  onclick="selectCategy(9)">
 		</div>
 </div>
 
@@ -308,8 +342,8 @@ data-4500 = "right : 30%; top:0%;opacity:1;"
 data-5000 = "right : 30%; top:-100%;opacity:0;"
 >
 		<div id="content" 
-		style="margin-right: -100px; background-position: 0px bottom;">
-		<img id="peoplePhoto" src="image/normal.jpg" >
+		style="margin-right:-100px;margin-top:200px ; background-position: 0px bottom;">
+		<img id="contentCategy" src="image/titleForCategy.png" >
 		</div>
 </div>
 
@@ -684,8 +718,8 @@ data-15500 = "right:-60%;top:20%"
 
 <div id="conclusion_wrapper" data-smooth-scrolling="off" class = "wrapper"
 data-15800 = "left:30%;top:-150%"
-data-17000 = "left:30%;top:10%"
-data-17500 = "left:30%;top:10%"
+data-17000 = "left:30%;top:0%"
+data-17500 = "left:30%;top:0%"
 data-18000 = "left:30%;top:-150%"
 >
 		<div id="conclusion"
